@@ -1,0 +1,8 @@
+// Forever Configuration
+{
+  "uid": "app",
+  "watch": "true",
+  "script": "init.js",
+  "sourceDir": "../",
+  "spinSleepTime": "5000"
+}
