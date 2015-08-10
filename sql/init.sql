@@ -7,4 +7,11 @@ CREATE TABLE IF NOT EXISTS Users(
     total numeric(32,0)
 )
 
+CREATE TABLE IF NOT EXISTS Tipbot(
+    id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    acton VARCHAR(32) NOT NULL,
+    value INT(32) SIGNED,
+    time DATETIME NOT NULL
+)
+
 INSERT INTO USERS (username, total) VALUES('Etherbot', 0);
